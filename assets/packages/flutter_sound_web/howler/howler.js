@@ -2514,7 +2514,7 @@
   }
 
   // Add support for CommonJS libraries such as browserify.
-  if (typeof exports !== 'undefined' && exports) {
+  if (typeof exports !== 'undefined') {
     exports.Howler = Howler;
     exports.Howl = Howl;
   }
